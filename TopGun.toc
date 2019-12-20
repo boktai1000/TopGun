@@ -1,0 +1,27 @@
+## Interface: 11302
+## Author: Vitruvius
+## Title: TopGun|cFFFF0066 1.3.8|r
+## Notes: All-in-one Flight Addon
+## Version : 1.3.8
+## OptionalDeps:
+## Dependencies:
+## SavedVariables: TOPGUN_GlobalData
+## SavedVariablesPerCharacter: FlightData
+
+libs\LibStub\LibStub.lua
+libs\LibSharedMedia-3.0\lib.xml
+
+TopGun.lua
+EventHandler.lua
+SlashHandler.lua
+PresavedFlights.lua
+
+modules\FlightListGUI.lua
+modules\StatFrameGUI.lua
+modules\PreviousFlightGUI.lua
+modules\SettingsGUI.lua
+modules\AdvancedSettingsGUI.lua
+modules\StandaloneGUI.lua
+
+
+
