@@ -594,7 +594,7 @@ hooksecurefunc("AcceptBattlefieldPort", function()
 
 end);
 
-hooksecurefunc("ConfirmSummon", function()
+hooksecurefunc(C_SummonInfo, "ConfirmSummon", function()
 
    LandingHandler();
 
